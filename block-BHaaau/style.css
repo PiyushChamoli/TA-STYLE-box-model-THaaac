@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Style */
+
+h1{
+    font-size: 60px;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+hr{
+    width: 600px;
+    border-style: dashed;
+    margin: 20px auto;
+    color: #999999;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    margin: 25px;
+}
+
+.square{
+    margin: 60px auto;
+    width: 180px;
+    height: 180px;
+    background-color: #d8f6d4;
+    border: 20px solid #add8e6;
+    outline: 4px solid black;
+    box-shadow: 0px 0px 0px 23px #ed7f80;
+}
+
+.circles{
+    text-align: center;
+}
+
+.inside{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d8f6d4;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.border{
+    background-color: #add8e6;
+}
+
+.outline{
+    background-color: black;
+}
+
+.shadow{
+    background-color: #ed7f80;
+}
+
+.marker{
+    margin-right: 16px;
+    display: inline-block;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.ex2{
+    width: 600px;
+    border: 1px solid #999999;
+    font-size: 0%;
+    margin: 40px auto;
+}
+
+.a{
+    width: 180px;
+    height: 100px;
+    background-color: #cccccc;
+    margin: 10px;
+    display: inline-block;
+}
+
+.b{
+    width: 180px;
+    height: 100px;
+    background-color: #cccccc;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.c{
+    width: 180px;
+    height: 100px;
+    background-color: #cccccc;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
